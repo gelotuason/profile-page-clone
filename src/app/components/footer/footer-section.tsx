@@ -1,5 +1,7 @@
 export default function FooterSection() {
     return (
-        <h1>This is Footer section!</h1>
+        <section className="text-center">
+            <h1>This is Footer section!</h1>
+        </section>
     )
 }

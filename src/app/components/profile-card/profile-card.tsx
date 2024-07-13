@@ -1,5 +1,10 @@
-export default function ProfileSection() {
+export default function ProfileCard() {
     return (
-        <h1>This is Profile section!</h1>
+        <div className="p-4">
+            <h1>This is Profile section!</h1>
+            <h1>This is Profile section!</h1>
+            <h1>This is Profile section!</h1>
+            <h1>This is Profile section!</h1>
+        </div>
     )
 }

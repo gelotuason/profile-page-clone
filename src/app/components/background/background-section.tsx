@@ -1,5 +1,10 @@
+import BackgroundDescription from "./background-desc"
+
 export default function BackgroundSection() {
     return (
-        <h1>This is background section!</h1>
+        <section>
+            <h1 className="font-bold">Company Background</h1>
+            <BackgroundDescription />
+        </section>
     )
 }

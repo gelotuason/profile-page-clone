@@ -1,5 +1,12 @@
+import ServicesDescription from "./services-desc";
+import ServicesSamples from "./services-samples";
+
 export default function ServicesSection() {
     return (
-        <h1>This is Services section!</h1>
+        <section>
+            <h1 className="font-bold">Our Services</h1>
+            <ServicesDescription />
+            <ServicesSamples />
+        </section>
     )
 }
