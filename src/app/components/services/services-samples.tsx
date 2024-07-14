@@ -1,9 +1,6 @@
-'use client'
-
 import Image from "next/image";
 
 export default function ServicesSamples() {
-
     const sampleImages = [
         {
             src: '/services-photo-1.jpg', name: 'Services Sample 1'
@@ -18,6 +15,7 @@ export default function ServicesSamples() {
             {
                 sampleImages.map(sample => (
                     <Image
+                        key={sample.name}
                         src={sample.src}
                         width={700}
                         height={700}

@@ -10,6 +10,7 @@ export default function HeaderSection() {
                 height={312}
                 alt="Cover Photo"
                 className="w-full"
+                priority
             />
             <ProfileCard />
         </section>
