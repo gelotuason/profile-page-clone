@@ -6,7 +6,7 @@ export default function ProfileDetails() {
         <>
             <div className="relative">
                 <Avatar className="absolute -inset-y-16 w-24 h-24 border-2">
-                    <AvatarImage src="/avatar.jpg" />
+                    <AvatarImage src="/avatar.jpg" className="object-cover" />
                     <AvatarFallback>HW</AvatarFallback>
                 </Avatar>
 
