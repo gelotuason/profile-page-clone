@@ -1,7 +1,7 @@
 export default function BackgroundDescription() {
     return (
-        <p className="mt-3 text-xs tracking-tight">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <p className="mt-3 text-xs tracking-tighter text-gray-500 font-medium">
+            Lorem Ipsum is simply dummy text of the printing and typewriting industry. Lorem Ipsum has been the industry's standard dummy text eversince the 1500s
         </p>
     )
 }

@@ -16,7 +16,7 @@ export default function ProfileDetails() {
             </div>
 
             <div className="mt-1 mb-4 flex flex-col">
-                <h1 className="font-bold text-lg">Hussain Watkins</h1>
+                <h1 className="font-bold text-xl tracking-tighter">Hussain Watkins</h1>
                 <small className="text-gray-500 font-semibold tracking-tighter">SALES MANAGER</small>
                 <small className="text-gray-500 font-semibold tracking-tighter">H.Watkins@gmail.com</small>
                 <small className="text-gray-500 font-semibold tracking-tighter">+639123456789</small>

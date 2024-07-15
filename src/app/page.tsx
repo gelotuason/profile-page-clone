@@ -8,7 +8,7 @@ export default function Home() {
       <HeaderSection />
       <hr />
       <div className="p-4 flex flex-col gap-6">
-        <h1 className="text-2xl mt-4">Golden Wedding</h1>
+        <h1 className="text-2xl mt-4 tracking-tighter">Golden Wedding</h1>
         <BackgroundSection />
         <ServicesSection />
       </div>
