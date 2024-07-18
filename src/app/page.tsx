@@ -4,7 +4,7 @@ import ServicesSection from "./components/services/services-section";
 
 export default function Home() {
   return (
-    <main className="min-h-screen min-w-screen">
+    <main className="min-w-screen max-w-[1220px] mx-auto">
       <HeaderSection />
       <hr />
       <div className="p-4 flex flex-col gap-6">

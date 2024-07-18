@@ -3,15 +3,17 @@ import ProfileCard from "../profile-card/profile-card";
 
 export default function HeaderSection() {
     return (
-        <section>
-            <Image
-                src="/cover-photo.jpg"
-                width={820}
-                height={312}
-                alt="Cover Photo"
-                className="w-full"
-                priority
-            />
+        <section className="w-full">
+            <div className="relative min-h-40 md:h-64 lg:h-72">
+                <Image
+                    src="/cover-photo.jpg"
+                    layout="fill"
+                    quality={100}
+                    alt="Cover Photo"
+                    className="object-cover"
+                    priority
+                />
+            </div>
             <ProfileCard />
         </section>
     )
