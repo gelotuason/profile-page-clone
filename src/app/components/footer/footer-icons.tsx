@@ -14,12 +14,8 @@ export default function FooterIcons() {
     ]
 
     return (
-        <>
-            {
-                links.map(link => (
-                    <Link key={link.key} href={link.href}>{link.icon}</Link>
-                ))
-            }
-        </>
+        links.map(link => (
+            <Link key={link.key} href={link.href}>{link.icon}</Link>
+        ))
     )
 }

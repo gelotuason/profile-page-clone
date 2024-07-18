@@ -7,7 +7,7 @@ export default function HeaderSection() {
             <div className="relative min-h-40 md:h-64 lg:h-72">
                 <Image
                     src="/cover-photo.jpg"
-                    layout="fill"
+                    fill
                     quality={100}
                     alt="Cover Photo"
                     className="object-cover"

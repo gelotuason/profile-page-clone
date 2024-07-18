@@ -17,7 +17,7 @@ export default function ServicesSamples() {
                     <div key={sample.name} className="relative col-span-1">
                         <Image
                             src={sample.src}
-                            layout="fill"
+                            fill
                             alt={sample.name}
                             className="object-cover mb-2 rounded-lg"
                         />

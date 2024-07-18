@@ -12,14 +12,10 @@ export default function ProfileCardButtons() {
     ]
 
     return (
-        <>
-            {
-                buttons.map(button => (
-                    <Button key={button.key} variant="outline" size="icon" className="rounded-full border-2 border-black w-8 h-8">
-                        {button.icon}
-                    </Button>
-                ))
-            }
-        </>
+        buttons.map(button => (
+            <Button key={button.key} variant="outline" size="icon" className="rounded-full border-2 border-black w-8 h-8">
+                {button.icon}
+            </Button>
+        ))
     )
 }
