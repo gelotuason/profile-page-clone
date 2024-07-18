@@ -9,11 +9,11 @@ export default function ProfileDetails() {
                     <AvatarImage src="/avatar.jpg" className="object-cover" />
                     <AvatarFallback>HW</AvatarFallback>
                 </Avatar>
-                <div className="mt-8 md:mt-0 md:ms-52 md:h-28 mb-4 flex flex-col">
+                <div className="profile-details mt-8 md:mt-0 md:ms-52 md:h-28 mb-4 flex flex-col">
                     <h1 className="font-bold text-xl tracking-tighter">Hussain Watkins</h1>
-                    <small className="text-gray-500 font-semibold tracking-tighter">SALES MANAGER</small>
-                    <small className="text-gray-500 font-semibold tracking-tighter">H.Watkins@gmail.com</small>
-                    <small className="text-gray-500 font-semibold tracking-tighter">+639123456789</small>
+                    <small className="text-gray-500 text-xs font-semibold tracking-tighter">SALES MANAGER</small>
+                    <small className="text-gray-500 text-xs font-semibold tracking-tighter">H.Watkins@gmail.com</small>
+                    <small className="text-gray-500 text-xs font-semibold tracking-tighter">+639123456789</small>
                 </div>
                 <div className="flex gap-1 flex-1 justify-end">
                     <ProfileCardButtons />
