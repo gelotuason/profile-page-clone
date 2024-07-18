@@ -70,11 +70,26 @@
 }
 
 .profile-details>h1 {
-  font-size: clamp(1.25rem, 4vw, 2rem);
-  line-height: clamp(1.75rem, 3.5vw, 2rem);
+  font-size: clamp(1.25rem, 3.75vw, 2rem);
+  line-height: clamp(1.75rem, 3.25vw, 2rem);
 }
 
 .profile-details>small {
-  font-size: clamp(0.75rem, 2vw, 1rem);
-  line-height: clamp(1rem, 3vw, 1.5rem);
+  font-size: clamp(0.75rem, 1.75vw, 1rem);
+  line-height: clamp(1rem, 2.75vw, 1.5rem);
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 1.75rem);
+  line-height: clamp(2rem, 3vw, 2.25rem);
+}
+
+.section-text>h1 {
+  font-size: clamp(0.875rem, 1.75vw, 1rem);
+  line-height: clamp(1.25rem, 1.75vw, 1.25rem);
+}
+
+.section-text>p {
+  font-size: clamp(0.75rem, 1.25vw, 0.875rem);
+  line-height: clamp(1rem, 1.25vw, 1.25rem);
 }
