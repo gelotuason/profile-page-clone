@@ -11,17 +11,17 @@ export default function ServicesSamples() {
     ]
 
     return (
-        <div className="mt-6">
+        <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 w-full h-[640px] lg:h-[480px] lg:space-x-2 space-y-2 lg:space-y-0">
             {
                 sampleImages.map(sample => (
-                    <Image
-                        key={sample.name}
-                        src={sample.src}
-                        width={700}
-                        height={700}
-                        alt={sample.name}
-                        className="w-full mb-2 rounded-lg"
-                    />
+                    <div key={sample.name} className="relative col-span-1">
+                        <Image
+                            src={sample.src}
+                            layout="fill"
+                            alt={sample.name}
+                            className="object-cover mb-2 rounded-lg"
+                        />
+                    </div>
                 ))
             }
         </div>
